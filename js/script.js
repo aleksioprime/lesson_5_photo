@@ -10,7 +10,7 @@ imgs.forEach(img => img.addEventListener('click', displayImage));
 function displayImage(e) { 
     // console.log(e.target);
     activeImage.src = e.target.src;
-    console.log(modal);
+    // console.log(modal);
     modal.style.display = 'block';
     overlay.style.display = 'block';
 }

@@ -1,5 +1,5 @@
-https://unsplash.com/
-https://fontawesome.com/
+/* https://unsplash.com/
+https://fontawesome.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Raleway:wght@300;400;500&display=swap');
 
 
@@ -30,13 +30,14 @@ h1 {
     display: flex;
 }
 
-.container {
-    width: 1170px;
-    margin: auto; 
-    /* background-color: coral; */
-}
+/* .container {
+   
+} */
 
 .images {
+    max-width: 1170px;
+    margin: auto; 
+    /* background-color: coral; */
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +52,6 @@ h1 {
 .image {
     height: 200px;
     position: relative;
-    cursor: pointer;
     flex: 1 1 auto;
     overflow: hidden;
 }
@@ -70,7 +70,7 @@ h1 {
 
 .images img:hover {
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.5s;
     transform: scale(1.4) rotate(7deg);
 }
 
